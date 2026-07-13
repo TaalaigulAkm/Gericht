@@ -1,0 +1,17 @@
+:root {
+  --font-family: "Cormorant Upright", serif;
+  --font-family-second: "Open Sans", sans-serif;
+  --font-family-third: "Bestermind", sans-serif;
+
+
+  --color-bg: #0C0C0C;
+  --color-white: #FFFFFF;
+  --color-gold: #DCCA87;
+  --color-gray: #AAAAAA;
+  --color-black: #000000;
+
+  --transition: 0.3s ease;
+
+  --container-width: 1300px;
+  --container-padding: 15px;
+}

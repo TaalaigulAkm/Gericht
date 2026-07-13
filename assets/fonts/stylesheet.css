@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Cormorant Upright';
+    src: url('CormorantUpright-Bold.woff2') format('woff2'),
+        url('CormorantUpright-Bold.woff') format('woff'),
+        url('CormorantUpright-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Upright';
+    src: url('CormorantUpright-Regular.woff2') format('woff2'),
+        url('CormorantUpright-Regular.woff') format('woff'),
+        url('CormorantUpright-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Upright';
+    src: url('CormorantUpright-SemiBold.woff2') format('woff2'),
+        url('CormorantUpright-SemiBold.woff') format('woff'),
+        url('CormorantUpright-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Italic.woff2') format('woff2'),
+        url('OpenSans-Italic.woff') format('woff'),
+        url('OpenSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.woff2') format('woff2'),
+        url('OpenSans-Regular.woff') format('woff'),
+        url('OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-SemiBold.woff2') format('woff2'),
+        url('OpenSans-SemiBold.woff') format('woff'),
+        url('OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
