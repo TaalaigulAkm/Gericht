@@ -381,3 +381,38 @@
 }
 
 /* BOOKING */
+
+/* MENU */
+
+.menu {
+    background: url(../media/menu-bg.webp) center / cover no-repeat;
+    padding: 261px 0 262px;
+}
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 64px;
+    margin-left: 80px;
+    width: 378px;
+    height: 377px;
+}
+.menu__link {
+    display: block;
+    width: fit-content;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    /* text-transform: capitalize; */
+    text-decoration: none;
+    text-decoration-skip-ink: none;
+    color: var(--color-white);
+}
+.menu__link:hover {
+    text-decoration: underline;
+    color: var(--color-gold);
+}
+
+/* MENU */
