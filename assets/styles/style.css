@@ -531,6 +531,27 @@
     align-items: center;
     width: 100%;
 }
+.special__btn {
+    padding: 8px 32px;
+    width: 136px;
+    height: 44px;
+    border: none;
+    background: var(--color-gold);
+    color: var(--color-black);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: .3s ease;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.special__btn:hover {
+    background: var(--color-white);
+}
 
 
-/* SPECIAL */
