@@ -554,4 +554,103 @@
     background: var(--color-white);
 }
 
+/* SHEF */
 
+.shef {
+    background: url("../media/bg-about_1x.webp");
+}
+.shef__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+.shef__image {
+    position: relative;
+    width: 665px;
+    height: 998px;
+}
+/* .shef__image::before {
+    content: "";
+    position: absolute;
+    top: 105px;
+    left: 95px;
+    width: 435px;
+    height: 435px;
+    border-top: 24px solid var(--color-gold);
+    border-right: 24px solid var(--color-gold);
+    z-index: 1;
+} */
+.shef__img {
+    position: absolute;
+    top: 105px;
+    left: 15px;
+    width: 634px;
+    height: 789px;
+    object-fit: cover;
+}
+.shef__info {
+    width: 570px;
+}
+.shef__subtitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-white);
+    margin-bottom: 8px;
+}
+.shef__spoon {
+    display: block;
+    margin-bottom: 8px;
+}
+.shef__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: var(--color-gold);
+    margin-bottom: 64px;
+}
+.shef__text {
+    font-family: var(--second-family);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--color-gray);
+    margin-bottom: 0;
+    width: 100%;
+}
+.shef__quote {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.shef__quote-icon {
+    width: 47px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.shef__name {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-gold);
+    margin-bottom: 8px;
+}
+.shef__position {
+    color: var(--color-gray);
+    margin-bottom: 64px;
+}
+
+/* SHEF */
