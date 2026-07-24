@@ -557,7 +557,7 @@
 /* SHEF */
 
 .shef {
-    background: url("../media/bg-about_1x.webp");
+    background: url("../media/bg-about_1x.webp") center / cover no-repeat;
 }
 .shef__content {
     display: flex;
@@ -792,7 +792,9 @@
 
 .laurels {
     padding: 128px 0;
+    background: url("../media/bg-about_1x.webp") center / cover no-repeat;
 }
+
 .laurels__subtitle {
     font-family: var(--font-family);
     font-weight: 700;
@@ -882,7 +884,6 @@
     left: -72px;
     bottom: 0;
     z-index: 2;
-    /* color: var(--color-white); */
 }
 
 /* LAURELS */
