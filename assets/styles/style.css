@@ -887,3 +887,116 @@
 }
 
 /* LAURELS */
+
+/* BLOGS */
+
+.blogs {
+    padding: 152px 0;
+}
+.blogs__heading {
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.blogs__subtitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-white);
+    margin-bottom: 8px;
+}
+.blogs__spoon {
+    margin-bottom: 8px;
+}
+.blogs__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: var(--color-gold);
+    margin-bottom: 64px;
+}
+.blogs__cards {
+    display: flex;
+    gap: 32px;
+}
+.blogs__card {
+    display: flex;
+    flex-direction: column;
+    /* gap: 24px; */
+}
+.blogs__card-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--color-gold);
+    margin-top: 32px;
+}
+.blogs__card-text {
+    margin-top: 24px;
+    font-family: var(--second-fond-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--color-gray);
+}
+.blogs__link {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--color-gold);
+    margin-top: 32px;
+    text-decoration: none;
+}
+.blogs__meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.blogs__data,
+.blogs__author {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #fafafa;
+}
+.blogs__image {
+    width: 412px;
+    display: block;
+}
+.blogs__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+.blogs__btn {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--color-black);
+    background: var(--color-gold);
+    display: inline-block;
+    padding: 8px 32px;
+}
+
+/* BLOGS */
